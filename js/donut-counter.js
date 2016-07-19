@@ -7,3 +7,16 @@
 //write a conditional to check if there are enough donuts
 
   //alert the user with a message telling them the numbers of donuts and guests, and if there are enough donuts for each guest.
+
+var guests = prompt('Enter number of guests:');
+var donuts = prompt('Enrter number of donuts:');
+guestsInt = parseInt(guests);
+donutsInt = parseInt(donuts);
+alert('guests: $(guestsInt)');
+alert('donunts: $(donutsInt)');
+if(donutsInt/guestsInt >= 1) {
+  alert('there are enough donuts')
+}
+else {
+  alert('there are not enough donuts')
+}
